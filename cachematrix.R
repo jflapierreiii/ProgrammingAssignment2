@@ -1,8 +1,6 @@
-## Put comments here that give an overall description of what your
-## functions do
+## Two functions are defined: makeCacheMatrix & cacheSolve.
 
-## Write a short comment describing this function
-
+## makeCacheMatrix takes a matrix 'x' as input and caches it.
 makeCacheMatrix <- function(x = matrix()) {
     inv <- NULL
     set <- function(y) {
